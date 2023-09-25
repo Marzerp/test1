@@ -4,10 +4,21 @@
 
 import numpy as np 
 
-x = np.pi
+data_list = np.arange(1,11,1)
 
-x = np.cos(x)
+for x in data_list:
+    print("value: "+ str(x))
 
-print(x)
+x = "hola"
+
+try:
+    z = int(x)+1
+except:
+    print("error in sum of z.")
+
+
+#x = np.cos(x)
+
+print(data_list)
 
 
